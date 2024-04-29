@@ -2535,6 +2535,9 @@
 "@modules/faq@file:./modules/faq":
   version "1.0.0"
 
+"@modules/image-gallery@file:./modules/image-gallery/":
+  version "1.0.0"
+
 "@modules/maps@file:./modules/maps":
   version "1.0.0"
 
@@ -2548,12 +2551,6 @@
   version "1.0.0"
 
 "@modules/qr-code@file:./modules/qr-code":
-  version "1.0.0"
-  dependencies:
-    react-native-camera "4.2.1"
-    react-native-qrcode-scanner "1.5.5"
-
-"@modules/qr-code@file:./modules/qr-code/":
   version "1.0.0"
   dependencies:
     react-native-camera "4.2.1"
@@ -2602,6 +2599,11 @@
   integrity sha512-Qd2kQ3yi6Y3+AcUlrHxSLlnBvpdCEMVGFlVBneVOjaFaPU61g1huc38g339ysXspwY1QZA2aNhrk/KlHGO+ewA==
   dependencies:
     merge-options "^3.0.4"
+
+"@react-native-camera-roll/camera-roll@5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@react-native-camera-roll/camera-roll/-/camera-roll-5.0.2.tgz#299bcd25fc51c1e8564808e744439bf7761286af"
+  integrity sha512-5gBol4mHjw9u1hUQzYWWdnB+uYgjuBd+adLQfJWhE6yv7rNFb+Noi872bYLyzBb8ayaVAbp/EtlxiG1lWY/IyA==
 
 "@react-native-community/cameraroll@4.1.2":
   version "4.1.2"
