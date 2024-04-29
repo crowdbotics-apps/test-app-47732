@@ -2532,6 +2532,13 @@
     react-native-qrcode-svg "6.1.2"
     react-native-svg "12.3.0"
 
+"@modules/2fa@file:./modules/2fa/":
+  version "1.0.1"
+  dependencies:
+    react-native-dropdown-picker "^5.4.6"
+    react-native-qrcode-svg "6.1.2"
+    react-native-svg "12.3.0"
+
 "@modules/faq@file:./modules/faq":
   version "1.0.0"
 
@@ -2548,9 +2555,6 @@
     react-native-app-intro-slider "^4.0.4"
 
 "@modules/photo-editing@file:./modules/photo-editing":
-  version "1.0.0"
-
-"@modules/photo-editing@file:./modules/photo-editing/":
   version "1.0.0"
 
 "@modules/qr-code@file:./modules/qr-code":
