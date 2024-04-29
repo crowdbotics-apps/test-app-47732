@@ -65,6 +65,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [django-camera](backend/modules)
 - [react-native-maps](modules/maps)
 - [faq]()
+- [react-native-photo-editing](modules/photo-editing)
 
 # Getting started: Frontend
 
