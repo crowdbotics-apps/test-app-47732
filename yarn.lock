@@ -2535,6 +2535,9 @@
 "@modules/faq@file:./modules/faq":
   version "1.0.0"
 
+"@modules/image-gallery@file:./modules/image-gallery":
+  version "1.0.0"
+
 "@modules/maps@file:./modules/maps":
   version "1.0.0"
 
@@ -2547,13 +2550,10 @@
 "@modules/photo-editing@file:./modules/photo-editing":
   version "1.0.0"
 
-"@modules/qr-code@file:./modules/qr-code":
+"@modules/photo-editing@file:./modules/photo-editing/":
   version "1.0.0"
-  dependencies:
-    react-native-camera "4.2.1"
-    react-native-qrcode-scanner "1.5.5"
 
-"@modules/qr-code@file:./modules/qr-code/":
+"@modules/qr-code@file:./modules/qr-code":
   version "1.0.0"
   dependencies:
     react-native-camera "4.2.1"
@@ -2602,6 +2602,11 @@
   integrity sha512-Qd2kQ3yi6Y3+AcUlrHxSLlnBvpdCEMVGFlVBneVOjaFaPU61g1huc38g339ysXspwY1QZA2aNhrk/KlHGO+ewA==
   dependencies:
     merge-options "^3.0.4"
+
+"@react-native-camera-roll/camera-roll@5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@react-native-camera-roll/camera-roll/-/camera-roll-5.0.2.tgz#299bcd25fc51c1e8564808e744439bf7761286af"
+  integrity sha512-5gBol4mHjw9u1hUQzYWWdnB+uYgjuBd+adLQfJWhE6yv7rNFb+Noi872bYLyzBb8ayaVAbp/EtlxiG1lWY/IyA==
 
 "@react-native-community/cameraroll@4.1.2":
   version "4.1.2"
@@ -9184,14 +9189,6 @@ react-native-screens@3.10.2:
   version "3.10.2"
   resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-3.10.2.tgz#cbf505d61c09e29ad5b335309951a3bd81f0df19"
   integrity sha512-bMKSpwMeqAoXBqTJiDEG1ogM1cMk66sEmpp/4dGqdX59v+OwMqPeTuBk37qaSuS7gPOFFKsNW2X3ymGvBT4iEw==
-  dependencies:
-    react-freeze "^1.0.0"
-    warn-once "^0.1.0"
-
-react-native-screens@3.20.0:
-  version "3.20.0"
-  resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-3.20.0.tgz#4d154177395e5541387d9a05bc2e12e54d2fb5b1"
-  integrity sha512-joWUKWAVHxymP3mL9gYApFHAsbd9L6ZcmpoZa6Sl3W/82bvvNVMqcfP7MeNqVCg73qZ8yL4fW+J/syusHleUgg==
   dependencies:
     react-freeze "^1.0.0"
     warn-once "^0.1.0"
