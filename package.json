@@ -17,6 +17,7 @@
     "@modules/2fa": "file:./modules/2fa/",
     "@modules/faq": "file:./modules/faq",
     "@modules/maps": "file:./modules/maps/",
+    "@modules/onboarding": "file:./modules/onboarding/",
     "@modules/photo-editing": "file:./modules/photo-editing/",
     "@modules/qr-code": "file:./modules/qr-code/",
     "@react-native-community/cameraroll": "4.1.2",
